@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Titan+One&family=Varela+Round&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #b4fdde;
+}
+/*********************** Start of nav bar ***********************/
+header
+{
+    display: grid;
+    grid-template-columns: 250px minmax(20px, 1fr);
+    background-color: rgb(249, 225, 229);
+
+}
+.logo
+{
+    padding: 10px;
+    text-align: center;
+    margin: auto 0;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: inline-block;
+    font-family: 'Moon Dance', cursive;
+    font-size: 50px;
+}
+nav
+{
+    grid-column: 3/3;
+}
+nav li
+{
+    font-family: 'Moon Dance', cursive;
+    line-height: 20px;
+    display: inline;
+    list-style: none;
+    float: left;
+    margin: auto 0;
+    padding: 20px;
+    font-size: 30px;
+}
+nav li a
+{
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+.mobile-menu
+{
+    display: none;
+}
+.hamburger
+{
+    display: hidden;
+}
+/*********************** End of nav bar ***********************/
+/*********************** Start of mobile nav bar ***********************/
+@media screen and (max-width: 755px)
+{
+    header
+    {
+        grid-template-columns: 250px 1fr 15%;
+    }
+    nav
+    {
+        display: none;
+    }
+    .mobile-menu
+    {
+
+    }
+    #hamburger
+    {
+        grid-column: 3/4;
+        justify-self: center;
+        margin: auto 0;
+        cursor: pointer;
+    }
+    #hamburger div
+    {
+        background-color: black;
+        width: 35px;
+        height: 3px;
+        margin: 6px 0px;
+    }
+}
+/*********************** End of mobile nav bar ***********************/
