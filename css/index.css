@@ -4,6 +4,8 @@ body
     margin: 0;
     padding: 0;
     background-color: azure;
+    overflow-x: hidden;
+    overflow: hidden;
 }
 /*********************** Start of nav bar ***********************/
 header
@@ -61,6 +63,7 @@ nav li a
     body
     {
         overflow-x: hidden;
+        overflow: hidden;
     }
     .logo
     {
@@ -79,10 +82,10 @@ nav li a
     }
     .nav-links
     {
-        position: absolute;
+        position: fixed;
         height: 100vh;
         right: 0px;
-        top: 62px;
+        top: 57px;
         background-color: rgb(249, 225, 229);
         display: flex;
         flex-direction: column;
