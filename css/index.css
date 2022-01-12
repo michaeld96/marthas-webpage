@@ -26,10 +26,7 @@ header
     margin-left: 20px;
     grid-column-start: 1;
     grid-column-end: 2;
-    /* font-family: 'Moon Dance', cursive; */
-    /* font-family: 'Lobster Two', cursive; */
     font-family: 'Twinkle Star', cursive;
-    /* font-family: 'Abril Fatface', cursive; */
     font-size: 2.5rem;
 }
 .logo a
@@ -45,10 +42,7 @@ nav
 }
 nav li
 {
-    /* font-family: 'Moon Dance', cursive; */
-    /* font-family: 'Lobster Two', cursive; */
     font-family: 'Twinkle Star', cursive;
-    /* font-family: 'Abril Fatface', cursive; */
     display: inline-block;
     list-style: none;
     padding: 20px;
@@ -202,7 +196,6 @@ nav li a
 {   
     padding: 10px;
     margin-left: 5%;
-    text-decoration: underline;
     font-family: 'Twinkle Star', cursive;
     font-size: 2.3rem;
 }

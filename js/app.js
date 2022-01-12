@@ -6,4 +6,8 @@ const nav_slide = () =>{
         nav.classList.toggle('nav-active');
     });
 }
+function rest_function()
+{
+    document.getElementById("my-form").reset();
+}
 nav_slide();

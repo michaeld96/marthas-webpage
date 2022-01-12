@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Titan+One&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster+Two&family=Roboto+Condensed:wght@300&family=Twinkle+Star&family=Vidaloka&display=swap');
+
+.contact-me-container
+{
+    text-align: center;
+    margin: 0px auto;
+}
+.info
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 350px;
+    margin: 8px 0px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+textarea
+{
+    border: solid black 2px;
+    border-radius: 8px;
+    width: 450px;
+    height: 200px;
+    margin: 15px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.form-background
+{
+    top: -100px;
+    width: 800px;
+    z-index: -999;
+    position: relative;
+}
+form
+{
+    position: relative;
+    top: -850px;
+    margin-left: 120px;
+}
+.button-type
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100px;
+    margin: 0 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50px;
+    border: solid black 2px;
+    transition: ease-in .25s;
+}
+.button-type:hover
+{
+    background-color: rgb(249, 225, 229);
+}
+h1
+{
+    font-family: 'Twinkle Star', cursive;
+}
+.thanks
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.outside-link
+{
+    text-decoration: none;
+    color: black;
+}
+/********************** Start of moblie **********************/
+@media screen and (max-width: 750px)
+{
+    .form-background
+    {
+        top: 50px;
+        width: 550px;
+        /* margin-left: 5%; */
+    }
+    form
+    {
+        margin-left: 220px;
+        /* display: none; */
+        width: 50%;
+        top: -490px;
+    }
+    .info
+    {
+        width: 200px;
+    }
+    textarea
+    {
+        width: 200px;
+        height: 100px;
+    }
+    h1
+    {
+        font-size: 1rem;
+    }
+}
+/* @media screen and (max-width: 500px)
+{
+    .form-background
+    {
+        top: 50px;
+        width: 100%;
+        /* margin-left: -80px; */
+    }
+} */
