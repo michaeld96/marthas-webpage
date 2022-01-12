@@ -14,7 +14,7 @@ header
     display: grid;
     grid-template-columns: 250px minmax(20px, 1fr);
     background-color: rgb(249, 225, 229);
-
+    z-index: 100;
 }
 .sprout
 {
@@ -39,6 +39,7 @@ nav
     position: absolute;
     right: 0px;
     grid-column: 3/3;
+    
 }
 nav li
 {
