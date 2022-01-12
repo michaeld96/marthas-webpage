@@ -72,16 +72,17 @@ h1
     .form-background
     {
         top: 50px;
-        width: 550px;
-        left: -80px;
+        width: 100vw;
+        height: 100vh;
+        /* left: -80px; */
         /* margin-left: 5%; */
     }
     form
     {
-        margin-left: 20%;
+        margin-left: 8%;
         /* display: none; */
-        width: 50%;
-        top: -490px;
+        width: 100vw;
+        top: -500px;
     }
     .info
     {
