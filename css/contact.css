@@ -39,19 +39,15 @@ form
 }
 .button-type
 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Twinkle Star', cursive;
     width: 100px;
     margin: 0 10px;
     padding: 5px;
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(249, 225, 229);
     border-radius: 50px;
     border: solid black 2px;
     transition: ease-in .25s;
-}
-.button-type:hover
-{
-    background-color: rgb(249, 225, 229);
 }
 h1
 {
@@ -98,12 +94,3 @@ h1
         font-size: 1rem;
     }
 }
-/* @media screen and (max-width: 500px)
-{
-    .form-background
-    {
-        top: 50px;
-        width: 100%;
-        margin-left: -80px;
-    }
-} */
