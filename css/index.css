@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Titan+One&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster+Two&family=Roboto+Condensed:wght@300&family=Twinkle+Star&family=Vidaloka&display=swap');
+html {
+    overflow-y: scroll;
+}
 body
 {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -61,7 +65,7 @@ nav li a
 }
 .hamburger
 {
-    display: hidden;
+    display: hidden; 
 }
 /*********************** End of nav bar ***********************/
 .pic-of-me
@@ -179,12 +183,9 @@ nav li a
     grid-template-columns: 100%;
     height: 450px;
 }
-/* .mission-col
-{
-    width: 100%;
-} */
 .handd
 {
+    overflow-y: overlay;
     z-index: -999;
     position: relative;
     left: -225px;
@@ -202,8 +203,7 @@ nav li a
 {   
     padding: 10px;
     position: relative;
-    left: 225px;
-    /* text-align: center; */
+    /* left: 225px; */
     font-family: 'Twinkle Star', cursive;
     font-size: 2.3rem;
 }
@@ -248,6 +248,7 @@ footer
     text-align: center;
     font-size: 2rem;
     line-height: 40px;
+    width: 100%;
 }
 .social-icon
 {
@@ -289,7 +290,6 @@ footer > a
     body
     {
         overflow-x: hidden;
-        /* overflow: hidden; */
     }
     .logo
     {
@@ -302,11 +302,10 @@ footer > a
     }
     header
     {
-        /* width: 100%; */
+        width: 100%;
         display: grid;
         grid-template-columns: 88% 10%;
         position: fixed;
-        width: 100%;
     }
     .nav-links
     {
@@ -375,7 +374,7 @@ footer > a
     }
     .mission-row
     {
-        /* display: block; */
+        display: block;
         height: 300px;
     }
     .handd
