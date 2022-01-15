@@ -74,11 +74,13 @@ h1
 /********************** Start of moblie **********************/
 @media screen and (max-width: 750px)
 {
+    
     .contact-me-container
     {
         background-image: url(../imgs/form-background.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
+        width: 100%;
     }
     .form-background
     {

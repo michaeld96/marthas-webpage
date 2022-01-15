@@ -34,19 +34,21 @@
         <!--------------- Nav Bar End --------------->
         
         <script src="../js/app.js"></script>
-        <div class="contact-me-container">
-            <img class = "form-background"src="../imgs/form-background.jpg" alt="pen and paper">
-            
-            <form method="post" action="https://forms.un-static.com/forms/121977099f869b67ad020e9a8ccd72227bbbae12" id = "my-form">
-                <h1>Write me a Message!</h1>
-                <input class = "info" type="text" name = "name" placeholder="Enter your first and last name." required><br>
-                <input class = "info"type = "email" name = "email" placeholder="Enter in your e-mail address." required><br>
-                <input class = "info"type  = "text" name = "subject" placeholder="What's the subject?"><br>
-                <textarea name="message" cols="50" rows="15" placeholder="Type your message here!"></textarea><br>
-                <button class = "button-type grow" type = "submit">Send!</button>
-                <input class = "button-type grow" type="button" onclick = "rest_function()" value = "Reset Form!">
-                <p class = "thanks"><small>(Powered by <a class = "outside-link" rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
-            </form>
+        <div class="flexbox-container">
+            <div class="contact-me-container">
+                <img class = "form-background"src="../imgs/form-background.jpg" alt="pen and paper">
+                
+                <form method="post" action="https://forms.un-static.com/forms/121977099f869b67ad020e9a8ccd72227bbbae12" id = "my-form">
+                    <h1>Write me a Message!</h1>
+                    <input class = "info" type="text" name = "name" placeholder="Enter your first and last name." required><br>
+                    <input class = "info"type = "email" name = "email" placeholder="Enter in your e-mail address." required><br>
+                    <input class = "info"type  = "text" name = "subject" placeholder="What's the subject?"><br>
+                    <textarea name="message" cols="50" rows="15" placeholder="Type your message here!"></textarea><br>
+                    <button class = "button-type grow" type = "submit">Send!</button>
+                    <input class = "button-type grow" type="button" onclick = "rest_function()" value = "Reset Form!">
+                    <p class = "thanks"><small>(Powered by <a class = "outside-link" rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
+                </form>
+            </div>
         </div>
         <footer>
             <a target = "_blank" href="https://www.linkedin.com/in/martha-sprout-20907052/"><i class="fab fa-linkedin-in social-icon icon-grow"></i></a>

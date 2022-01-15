@@ -382,12 +382,12 @@ footer > a
     {
         position: relative;
         left: -125px;
-        top: -175px;
+        top: -150px;
         width: 500px;
     }
     .mission-h
     {
-        top: -30px;
+        top: -10px;
         left: 110px;
         font-size: 1.5rem;
     }
