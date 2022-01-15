@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Titan+One&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster+Two&family=Roboto+Condensed:wght@300&family=Twinkle+Star&family=Vidaloka&display=swap');
-
+html 
+{
+    /* Used so that width is not effected with scroll */
+    overflow-y: scroll;
+}
 .flexbox-container
 {
     display: flex;
@@ -72,11 +76,11 @@ h1
 {
     .contact-me-container
     {
-        height: 100vh;
-        
+        height: 900px;
     }
     .form-background
     {
+        left: -30px;
         top: 50px;
         width: 100vw;
         height: 100vh;
@@ -86,11 +90,11 @@ h1
     {
         position: absolute;
         margin-left: 8%;
+        left: -15px;
         /* display: none; */
-        width: 100vw;
-        top: 30%;
+        width: 90vw;
         height: auto;
-        /* top: -475px; */
+        top: 33%;
     }
     .info
     {
@@ -104,5 +108,9 @@ h1
     h1
     {
         font-size: 1rem;
+    }
+    small
+    {
+        font-size: 0.5rem;
     }
 }
