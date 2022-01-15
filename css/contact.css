@@ -76,24 +76,21 @@ h1
 {
     .contact-me-container
     {
-        height: 900px;
+        background-image: url(../imgs/form-background.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
     .form-background
     {
-        left: -30px;
-        top: 50px;
-        width: 100vw;
-        height: 100vh;
-        min-height: 600px;
+        display: none;
     }
     form
     {
-        position: absolute;
-        margin-left: 8%;
+        margin-left: 11%;
         left: -15px;
         /* display: none; */
-        width: 90vw;
-        height: auto;
+        width: 100%;
+        /* height: auto; */
         top: 35%;
     }
     .info
