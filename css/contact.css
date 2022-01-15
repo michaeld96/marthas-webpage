@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Titan+One&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster+Two&family=Roboto+Condensed:wght@300&family=Twinkle+Star&family=Vidaloka&display=swap');
 
+.flexbox-container
+{
+    display: flex;
+}
 .contact-me-container
 {
     height: 925px;
@@ -66,20 +70,27 @@ h1
 /********************** Start of moblie **********************/
 @media screen and (max-width: 750px)
 {
+    .contact-me-container
+    {
+        height: 100vh;
+        
+    }
     .form-background
     {
         top: 50px;
         width: 100vw;
         height: 100vh;
-        /* left: -80px; */
-        /* margin-left: 5%; */
+        min-height: 600px;
     }
     form
     {
+        position: absolute;
         margin-left: 8%;
         /* display: none; */
         width: 100vw;
-        top: -475px;
+        top: 30%;
+        height: auto;
+        /* top: -475px; */
     }
     .info
     {
