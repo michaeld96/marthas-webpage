@@ -8,8 +8,7 @@
     width: 40%;
     padding: 20px;
     font-size: 1.6rem;
-    
-    background-image: linear-gradient(white, rgba(0,0,0,.05));
+    background-color: rgba(0,0,0,.05);
     height: 100vh;
     
 }
@@ -22,19 +21,41 @@
     width: 60%;
     text-align: center;
     font-size: 1.5rem;
-    /* background-color: lightgrey; */
     height: 100vh;
 }
 .display > img
 {
     max-width: 450px;
 }
+.download
+{
+    background-color: rgb(249, 225, 229);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+    font-family: 'Twinkle Star', cursive;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    width: 250px;
+    margin: 30px auto;
+}
+.pdf-view
+{
+    height: 80%;
+    width: 100%;
+}
+.pdf-a
+{
+    display: none;
+}
 
 @media screen and (min-width: 1100px)
 {
     .discription
     {
-        font-size: 2rem;
+        font-size: 1.95rem;
     }
 }
 @media screen and (max-width: 750px)
@@ -58,10 +79,28 @@
     {
         width: 100%;
         height: auto;
+        background-image: none;
     }
     .discription > p
     {
         padding: 30px;
         margin: 10px;
+    }
+    .pdf-view
+    {
+        display: none;
+    }
+    .pdf-a
+    {
+        margin: 0 auto;
+        display: block;
+        text-decoration: none;
+        font-family: 'Twinkle Star', cursive;
+        color: black;
+        background-color: rgb(249, 225, 229);
+        width: 220px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 30px;
     }
 }
