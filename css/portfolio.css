@@ -75,6 +75,10 @@
   {
       opacity: 0;
   }
+  .lg-thumb-nail
+  {
+    max-width: 190px;
+  }
 /********************** Start of moblie **********************/
 @media screen and (max-width: 750px)
 {
