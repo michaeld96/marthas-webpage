@@ -46,16 +46,13 @@
     }
     .display
     {
-        padding: 10px;
         margin-top: 100px;
-        margin-left: 0px;
-        margin-right: 0px;
         width: 100%;
         height: auto;
     }
     .display > img
     {
-        width: 100%;
+        width: 90%;
     }
     .discription
     {
