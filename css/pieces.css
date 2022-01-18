@@ -53,6 +53,10 @@
         width: 100%;
         height: auto;
     }
+    .display > img
+    {
+        width: 100%;
+    }
     .discription
     {
         width: 100%;
