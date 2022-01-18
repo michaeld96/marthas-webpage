@@ -1,0 +1,69 @@
+.page
+{
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.discription
+{
+    width: 40%;
+    padding: 20px;
+    font-size: 1.6rem;
+    
+    background-image: linear-gradient(white, rgba(0,0,0,.05));
+    height: 100vh;
+    
+}
+.discription > p
+{
+    margin: 10px 10px;
+}
+.display
+{
+    width: 60%;
+    text-align: center;
+    font-size: 1.5rem;
+    /* background-color: lightgrey; */
+    height: 100vh;
+}
+.display > img
+{
+    max-width: 450px;
+}
+
+@media screen and (min-width: 1100px)
+{
+    .discription
+    {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 750px)
+{
+    .display > img
+    {
+        max-width: 325px;
+    }
+    .page
+    {
+        display: grid;
+        grid-template-rows: 50%;
+    }
+    .discription
+    {
+        margin-top: -100px;
+        background-image: none;
+        grid-row: 2;
+        width: 100%;
+    }
+    .display
+    {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    .discription > p
+    {
+        padding: 35px;
+        font-size: 1.5rem;
+    }
+}

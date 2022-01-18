@@ -16,7 +16,7 @@
 }
 .thumb-nail
 {
-    width: 75%;
+    max-width: 200px;
 }
 .piece > .overlay > p
 {
