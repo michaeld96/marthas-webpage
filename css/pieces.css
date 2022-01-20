@@ -2,6 +2,8 @@
 {
     display: flex;
     font-family: 'Roboto Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 .discription
 {
@@ -20,26 +22,29 @@
 {
     width: 60%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     height: 100vh;
 }
 .display > img
 {
     max-width: 450px;
+    padding: 5px;
 }
 .download
 {
+    border: solid black 1px;
     background-color: rgb(249, 225, 229);
     text-decoration: none;
     text-align: center;
     display: block;
     color: black;
     font-family: 'Twinkle Star', cursive;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     border-radius: 50px;
     width: 250px;
     margin: 30px auto;
+    font-size: 1.2rem;
 }
 .pdf-view
 {
