@@ -10,4 +10,6 @@ function rest_function()
 {
     document.getElementById("my-form").reset();
 }
+
+
 nav_slide();

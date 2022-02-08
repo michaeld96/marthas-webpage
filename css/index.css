@@ -241,6 +241,20 @@ nav li a
     border-radius: 30px;
     font-family: 'Twinkle Star', cursive;
 }
+.star {
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 0.8s;
+    animation: animat_show 0.8s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+}
 /*********************** Start of Footer ***********************/
 footer
 {
@@ -266,7 +280,7 @@ footer > a
 {
     color: black
 }
-/*********************** Start of Footer ***********************/
+/*********************** End of Footer ***********************/
 .icon-grow
 {
     transition: all .2s ease-in-out;

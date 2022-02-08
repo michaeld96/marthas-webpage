@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Below is used for Font Awesome. -->
 	<script src="https://kit.fontawesome.com/4c4bda27d1.js" crossorigin="anonymous"></script>
+    <!-- Load in jquery. -->
+    <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/index.css">
     <title>Martha's Website</title>
     <link rel="icon" href="imgs/sprout-icon.png">
@@ -40,14 +42,14 @@
             </p>
         </div>
         <div class="bio-col2">
-            <img class = "pic-of-me"src="imgs/selfportrait.png" alt="Picture of Martha Sprout">
+            <img class = "star pic-of-me" onload="fade_in(this)"src="imgs/selfportrait.png" alt="Picture of Martha Sprout" >
         </div>
     </div>
     <div class="pink-bar"></div>
     <h1 class = "selected-pieces">Selected Pieces</h1>
     <div class="display-row">
         <div class="display-col">
-            <img class = "display-img" src="imgs/windmill-logo.png" alt="windmill logo">
+            <img class = " star display-img" src="imgs/windmill-logo.png" alt="windmill logo">
             <h3 class = "img-title">Shining Brow Logo</h3>
             <p class = "img-dis">
                 <!-- Shining Brow Logo -->
@@ -57,7 +59,7 @@
         </div>
         <div class="grey-line"></div>
         <div class="display-col">
-            <img class = "display-img"src="imgs/Common-ground-add.png" alt="common ground coffee ad">
+            <img class = "star display-img"src="imgs/Common-ground-add.png" alt="common ground coffee ad">
             <h3 class = "img-title-large">Higher Ground Poster</h3>
             <p class = "img-dis-large">
                 <!-- Higher Grounds Poster -->
@@ -68,7 +70,7 @@
         </div>
         <div class="grey-line"></div>
         <div class="display-col">
-            <img class = "display-img" src="imgs/taco-logo.jpeg" alt="the taco shack ad">
+            <img class = "star display-img" src="imgs/taco-logo.jpeg" alt="the taco shack ad">
             <h3 class = "img-title">Taco Shack Logo</h3>
             <p class = "img-dis">
                 <!-- Taco Shake Logo -->
@@ -80,7 +82,7 @@
     <div class="pink-bar1"></div>
     <div class="mission-row">
             <h1 class = "mission-h">My Mission</h1>
-            <img class = "handd"src="imgs/hand.jpg" alt="hand">
+            <img class = "star handd"src="imgs/hand.jpg" alt="hand">
             <p class = "mission-p">
                 My mission as an artist is to create thoughtful and creative designs. I aim to always challenge myself as an artist 
                 by exploring new mediums such as printmaking, watercolor, and digital art. I am also a self taught knitter and a lover of scented candles. 
@@ -98,5 +100,6 @@
         <p class = "rights">Martha Sprout © All Rights Reserved.</p>
     </footer>
     <script src="js/app.js"></script>
+    <script src="js/load.js"></script>
 </body>
 </html>
